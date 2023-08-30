@@ -1,0 +1,25 @@
+.contenedor-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    max-width: 100%;
+    padding: 0px 40px;
+    border: 1px solid black;
+}
+
+.slider-izquierda, .slider-derecha {
+    width: 5%;
+}
+
+.slider-izquierda img, .slider-derecha img {
+    width: 100%;
+}
+
+.slider-screen {
+    width: 90%;
+}
+
+.slider-screen img {
+    width: 100%;
+}
