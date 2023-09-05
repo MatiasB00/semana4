@@ -16,12 +16,12 @@ function MoverDerecha() {
     }
     document.getElementById("imagen").src = imagenes[contador];
 }
-var intervalo = setInterval(MoverDerecha, 2000);
+var intervalo = setInterval(MoverDerecha, 3000);
 sliderDerecha.addEventListener("click", function()
     {
         clearInterval(intervalo);
         MoverDerecha();
-        intervalo = setInterval(MoverDerecha, 2000);
+        intervalo = setInterval(MoverDerecha, 3000);
     });
 function MoverIzquierda() {
     contador--;
@@ -33,5 +33,5 @@ function MoverIzquierda() {
 sliderIzquierda.addEventListener("click", function() {
     clearInterval(intervalo);
     MoverIzquierda();
-    intervalo = setInterval(MoverDerecha, 2000); 
+    intervalo = setInterval(MoverDerecha, 3000); 
 });
